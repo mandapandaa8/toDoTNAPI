@@ -1,0 +1,69 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "firstName": "Chad",
+            "lastName": "Choice",
+            "email": "chadradchoice@aol.com"
+        },
+        {
+            "id": 2,
+            "firstName": "Mary",
+            "lastName": "Myers",
+            "email": "mary@church.com"
+        },
+        {
+            "id": 3,
+            "firstName": "Brittany",
+            "lastName": "Basset",
+            "email": "brittanybiotch@aol.com"
+        },
+        {
+            "id": 4,
+            "firstName": "Aspen",
+            "lastName": "Abernathy",
+            "email": "aspentree@witches.org"
+        },
+        {
+            "id": 5,
+            "firstName": "Bob",
+            "lastName": "Bishop",
+            "email": "dadbob@recess.com"
+        },
+        {
+            "id": 6,
+            "firstName": "Link",
+            "lastName": "Larkin",
+            "email": "linkclimbs@climber.org"
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "categoryName": "Breweries",
+            "userId": 1
+        }
+    ],
+    "places": [
+        {
+            "id": 1,
+            "placeName": "Jackalope Brewing Company",
+            "address": "429B Houston St, Nashville, TN 37203",
+            "description": "Heard this was a good spot for brewskies",
+            "goAgain": true,
+            "recommend": true,
+            "userId": 1,
+            "categoryId": 1,
+            "recommendId": 1
+        }
+    ],
+    "recommendations": [
+        {
+            "id": 1,
+            "userName": "Chad",
+            "categoryName": "Breweries",
+            "placeName": "Jackalope Brewing Company",
+            "userComment": "This place was siiiick. Dope IPAs, drink less drunk faster!"
+        }
+    ]
+}
